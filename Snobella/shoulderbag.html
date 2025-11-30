@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/shoulder.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="top-bar d-flex align-items-center">
+                <div class="container d-flex justify-content-between">
+
+                    <div class="contact">
+                        <i class="bi bi-telephone"></i> +748 383 23 14
+                    </div>
+
+                    <div class="menu-links">
+                        <a href="#">Terms of Use</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Customer service</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-3">
+
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <div class="logo-text">Snobella</div>
+
+                    <div class="search-area d-flex align-items-center">
+                        <input type="text" placeholder="Search all product">
+                        <i class="fa fa-magnifying-glass ms-2" style="font-size:18px; cursor:pointer;"></i>
+                    </div>
+
+                    <div class="menu-icons d-flex align-items-center gap-3">
+
+                        <a href="signup.html" id="signupLink"><i class="fa-solid fa-user-plus"></i> Sign Up</a>
+                        <a href="login.html" id="loginLink"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+
+                        <div id="accountArea" class="d-none d-flex align-items-center gap-3">
+                            <a href="#"><i class="fa-solid fa-circle-user"></i> Account</a>
+                            <a href="#"><i class="fa-solid fa-heart"></i> Wishlist</a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i> Basket</a>
+                            <a href="#" id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="nav-links d-flex justify-content-start mt-3">
+                    <a href="#">Evening bags</a>
+                    <a href="/shoulderbag.html" id="shoulderBag"><i class="fa fa-handbag"></i> Shoulder bag</a>
+                    <a href="#">Backpack</a>
+                    <a href="#">Handbag</a>
+                    <a href="#">Postman bag</a>
+                    <a href="#">Belt bags</a>
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+    </header>
+    <section class="product-page py-5">
+        <div class="container">
+            <div class="row">
+
+                <section class="product-page py-5">
+                    <div class="container">
+                        <div class="row">
+
+                            <aside class="col-md-2 filter-sidebar p-3 bg-white border rounded">
+                                <h6 class="mb-2">Categories</h6>
+                                <ul class="list-unstyled small">
+                                    <li><input type="radio" name="category"> Backpacks</li>
+                                    <li><input type="radio" name="category"> Belt Bags</li>
+                                    <li><input type="radio" name="category"> Handbags</li>
+                                    <li><input type="radio" name="category"> Shoulder Bags</li>
+                                    <li><input type="radio" name="category"> Evening Bags</li>
+                                    <li><input type="radio" name="category"> Postman Bag</li>
+                                </ul>
+
+                                <h6 class="mt-3 mb-2">Material</h6>
+                                <ul class="list-unstyled small">
+                                    <li><input type="checkbox"> Cloth</li>
+                                    <li><input type="checkbox"> Cotton</li>
+                                    <li><input type="checkbox"> Denim</li>
+                                    <li><input type="checkbox" checked> Exotic Leathers</li>
+                                    <li><input type="checkbox"> Faux Fur</li>
+                                    <li><input type="checkbox" checked> Glitter</li>
+                                </ul>
+
+                                <h6 class="mt-3 mb-2">Price</h6>
+                                <div class="d-flex gap-1">
+                                    <input type="number" class="form-control form-control-sm" placeholder="$10">
+                                    <input type="number" class="form-control form-control-sm" placeholder="$50">
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary mt-2 w-100">Search</button>
+
+                                <h6 class="mt-3 mb-2">Size</h6>
+                                <ul class="list-unstyled small">
+                                    <li><input type="radio" name="size"> XS</li>
+                                    <li><input type="radio" name="size"> S</li>
+                                    <li><input type="radio" name="size"> M</li>
+                                </ul>
+
+                                <h6 class="mt-3 mb-2">Color</h6>
+                                <div class="color-dots">
+                                    <span class="dot bg-primary" title="Blue"></span>
+                                    <span class="dot bg-danger" title="Red"></span>
+                                    <span class="dot bg-warning" title="Yellow"></span>
+                                    <span class="dot bg-success" title="Green"></span>
+                                    <span class="dot bg-dark" title="Black"></span>
+                                </div>
+                            </aside>
+
+                            <div class="col-md-10">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h5 class="mb-0">Shoulder bags</h5>
+                                    <select class="form-select form-select-sm w-auto">
+                                        <option>Product name</option>
+                                        <option>Price</option>
+                                        <option>Rating</option>
+                                    </select>
+                                </div>
+
+                                <div class="row g-4">
+                                    <div class="col-6 col-md-6">
+                                        <div class="card product-card">
+                                            <img src="/assets/images/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46 4.png"
+                                                class="card-img-top">
+                                            <i class="fa-regular fa-heart position-absolute top-0 end-0 m-2 fav-icon"
+                                                onclick="toggleFavorite(this)"></i>
+                                            <div class="card-body">
+                                                <h6 class="card-title">Shoulder Bag</h6>
+                                                <p class="small text-muted">Leather Bag Leather undertakes laborious
+                                                    physical</p>
+                                                <div class="price">
+                                                    <strong>$130.00</strong> <span
+                                                        class="text-muted text-decoration-line-through">$140.00</span>
+                                                </div>
+                                                <div class="stars mb-2">
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 1)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 2)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 3)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 4)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 5)"></i>
+                                                </div>
+                                                <button class="btn btn-sm btn-cart w-100 mt-2">Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6 col-md-6">
+                                        <div class="card product-card">
+                                            <img src="/assets/images/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46 4.png"
+                                                class="card-img-top">
+                                            <i class="fa-regular fa-heart position-absolute top-0 end-0 m-2 fav-icon"
+                                                onclick="toggleFavorite(this)"></i>
+                                            <div class="card-body">
+                                                <h6 class="card-title">Hand Bag</h6>
+                                                <p class="small text-muted">Leather Bag Leather undertakes laborious
+                                                    physical</p>
+                                                <div class="price">
+                                                    <strong>$130.00</strong> <span
+                                                        class="text-muted text-decoration-line-through">$140.00</span>
+                                                </div>
+                                                <div class="stars mb-2">
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 1)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 2)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 3)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 4)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 5)"></i>
+                                                </div>
+                                                <button class="btn btn-sm btn-cart w-100 mt-2">Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6 col-md-6">
+                                        <div class="card product-card">
+                                            <img src="/assets/images/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46 4.png"
+                                                class="card-img-top">
+                                            <i class="fa-regular fa-heart position-absolute top-0 end-0 m-2 fav-icon"
+                                                onclick="toggleFavorite(this)"></i>
+                                            <div class="card-body">
+                                                <h6 class="card-title">Duffel Bag</h6>
+                                                <p class="small text-muted">Leather Bag Leather undertakes laborious
+                                                    physical</p>
+                                                <div class="price">
+                                                    <strong>$130.00</strong> <span
+                                                        class="text-muted text-decoration-line-through">$140.00</span>
+                                                </div>
+                                                <div class="stars mb-2">
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 1)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 2)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 3)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 4)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 5)"></i>
+                                                </div>
+                                                <button class="btn btn-sm btn-cart w-100 mt-2">Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6 col-md-6">
+                                        <div class="card product-card">
+                                            <img src="/assets/images/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46 4.png"
+                                                class="card-img-top">
+                                            <i class="fa-regular fa-heart position-absolute top-0 end-0 m-2 fav-icon"
+                                                onclick="toggleFavorite(this)"></i>
+                                            <div class="card-body">
+                                                <h6 class="card-title">Evening Bag</h6>
+                                                <p class="small text-muted">Leather Bag Leather undertakes laborious
+                                                    physical</p>
+                                                <div class="price">
+                                                    <strong>$130.00</strong> <span
+                                                        class="text-muted text-decoration-line-through">$140.00</span>
+                                                </div>
+                                                <div class="stars mb-2">
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 1)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 2)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 3)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 4)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 5)"></i>
+                                                </div>
+                                                <button class="btn btn-sm btn-cart w-100 mt-2">Add to cart</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                        <div class="card product-card">
+                                            <img src="/assets/images/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46 4.png"
+                                                class="card-img-top">
+                                            <i class="fa-regular fa-heart position-absolute top-0 end-0 m-2 fav-icon"
+                                                onclick="toggleFavorite(this)"></i>
+                                            <div class="card-body">
+                                                <h6 class="card-title">Evening Bag</h6>
+                                                <p class="small text-muted">Leather Bag Leather undertakes laborious
+                                                    physical</p>
+                                                <div class="price">
+                                                    <strong>$130.00</strong> <span
+                                                        class="text-muted text-decoration-line-through">$140.00</span>
+                                                </div>
+                                                <div class="stars mb-2">
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 1)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 2)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 3)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 4)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 5)"></i>
+                                                </div>
+                                                <button class="btn btn-sm btn-cart w-100 mt-2">Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                        <div class="card product-card">
+                                            <img src="/assets/images/kisspng-handbag-baggage-hand-luggage-leather-women-bag-5acd4069b62017 1 (1).png"
+                                                class="card-img-top">
+                                            <i class="fa-regular fa-heart position-absolute top-0 end-0 m-2 fav-icon"
+                                                onclick="toggleFavorite(this)"></i>
+                                            <div class="card-body">
+                                                <h6 class="card-title">Evening Bag</h6>
+                                                <p class="small text-muted">Leather Bag Leather undertakes laborious
+                                                    physical</p>
+                                                <div class="price">
+                                                    <strong>$130.00</strong> <span
+                                                        class="text-muted text-decoration-line-through">$140.00</span>
+                                                </div>
+                                                <div class="stars mb-2">
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 1)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 2)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 3)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 4)"></i>
+                                                    <i class="fa-regular fa-star" onclick="rateStar(this, 5)"></i>
+                                                </div>
+                                                <button class="btn btn-sm btn-cart w-100 mt-2">Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                </section>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 footer-brand">
+                        <h4>Snobella</h4>
+                        <p>The wise man therefore always holds selection<br>
+                            The wise man therefore always rejects pleasures to secure other greater</p>
+                        <p>Snobella@gmail.com<br>+748 383 23 34</p>
+                        <a href="#" class="btn btn-send">Send message</a>
+                    </div>
+
+                    <div class="col-md-3 footer-links">
+                        <h5>Shop</h5>
+                        <ul>
+                            <li><a href="#">Shoulder Bag</a></li>
+                            <li><a href="#">Backpack</a></li>
+                            <li><a href="#">Tote Bag</a></li>
+                            <li><a href="#">Hand Bag</a></li>
+                            <li><a href="#">Evening bags</a></li>
+                            <li><a href="#">Purse</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 footer-links">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Customer service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 footer-links">
+                        <h5>Help</h5>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Cancellation of the order</a></li>
+                            <li><a href="#">Don’t go back</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 text-start copyright">
+                        <p>© 2020. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-end social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </footer>
+    </main>
+    <script src="/assets/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/shoulder.js"></script>
+</body>
+
+</html>
